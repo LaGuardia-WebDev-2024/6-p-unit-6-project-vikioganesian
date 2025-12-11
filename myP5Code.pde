@@ -9,6 +9,7 @@ void setup() {
 void draw(){
   fill(225,225,225);
   strokeWeight(1);
+  stroke(0,0,0)
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
@@ -38,7 +39,17 @@ ellipse (130,152,5,5)
   
 
 
+//glove
+ stroke(252, 227, 3)
+ strokeWeight(25);
+  line(3,251,67,290);
+  line(-20,259,3,251);
+  line(67,290,-15,305);
+  fill(252, 227, 3)
+  ellipse (10,280,69,30)
 }
+
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
