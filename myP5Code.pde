@@ -1,19 +1,34 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(225,100,255,50);
+    background(225,100,255,0);
 }
 
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(225,225,225);
+  fill(225,225,0);
   strokeWeight(1);
   stroke(0,0,0)
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
-  
+
+//jacket 
+fill(199, 14, 57)
+beginShape()
+vertex(62,207)
+vertex(-6,261)
+vertex(41,350)
+vertex(223,376)
+vertex(261,362)
+vertex(358,365)
+vertex(400,255)
+vertex(328,215)
+endShape()
+
+
+
 //head
 fill(247, 219, 186)
 ellipse(200,149,320,250)
@@ -42,11 +57,12 @@ ellipse (130,152,5,5)
 //glove
  stroke(252, 227, 3)
  strokeWeight(25);
-  line(3,251,67,290);
-  line(-20,259,3,251);
-  line(67,290,-15,305);
+  
+ 
+  
   fill(252, 227, 3)
-  ellipse (10,280,69,30)
+  ellipse (8,280,60,30)
+  
 }
 
 
