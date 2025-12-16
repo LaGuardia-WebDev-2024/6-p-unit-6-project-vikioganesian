@@ -14,6 +14,28 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
 
+//pants
+fill(64, 30, 15)
+beginShape()
+vertex(50,352)
+vertex(61,393)
+vertex(203,398)
+vertex(334,394)
+vertex(345,355)
+endShape()
+
+//shoes
+fill(
+18, 18, 18
+)
+ellipse(134,396,160,20)
+
+ellipse(280,396,160,20)
+
+
+
+
+
 //jacket 
 fill(199, 14, 57)
 beginShape()
@@ -26,6 +48,7 @@ vertex(358,365)
 vertex(400,255)
 vertex(328,215)
 endShape()
+
 
 
 
@@ -55,15 +78,14 @@ ellipse (130,152,5,5)
 
 
 //glove
- stroke(252, 227, 3)
- strokeWeight(25);
-  
+
  
+ fill(255, 225, 0)
+  ellipse (8,280,80,50);
   
-  fill(252, 227, 3)
-  ellipse (8,280,60,30)
-  
+
 }
+
 
 
 
