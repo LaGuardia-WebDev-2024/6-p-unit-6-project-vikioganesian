@@ -13,6 +13,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
+    arc(200,72,320,250,);
 
 //pants
 fill(64, 30, 15)
@@ -49,13 +50,27 @@ vertex(400,255)
 vertex(328,215)
 endShape()
 
+line(221,272,222,376)
 
+fill(0,0,0)
+ellipse(208,283,5,10)
+ellipse(216,316,5,10)
+ellipse(211,359,5,10)
 
 
 //head
 fill(247, 219, 186)
 ellipse(200,149,320,250)
 
+fill(0,0,0)
+//mouth
+beginShape()
+vertex(179,225)
+vertex(224,236)
+vertex(221,255)
+vertex(202,250)
+vertex(183,241)
+endShape()
 
 // eyes 
   fill(255,255,255)
@@ -65,7 +80,7 @@ translate(90,0)
   fill(255,255,255)
 ellipse(145,154,70,85);
 
-
+ 
 
 //pupils
 fill(0,0,0)
@@ -79,12 +94,21 @@ ellipse (130,152,5,5)
 
 //glove
 
- 
+
  fill(255, 225, 0)
   ellipse (8,280,80,50);
-  
+
+  translate (330,-10)
+  fill(255, 225, 0)
+  ellipse (8,280,80,50);
+
+
 
 }
+
+//hat
+
+
 
 
 
