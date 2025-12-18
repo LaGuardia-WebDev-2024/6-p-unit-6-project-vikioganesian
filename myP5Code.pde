@@ -62,15 +62,35 @@ ellipse(211,359,5,10)
 fill(247, 219, 186)
 ellipse(200,149,320,250)
 
+
+
 fill(0,0,0)
 //mouth
 beginShape()
+
+vertex(170,234)
 vertex(179,225)
-vertex(224,236)
+vertex(227,229)
 vertex(221,255)
 vertex(202,250)
 vertex(183,241)
 endShape()
+
+line(234,255,214,259)
+line(214,259,178,253)
+
+line(325,214,292,241)
+line(292,241,257,254)
+line(257,254,221,264)
+line(221,264,188,265)
+line(188,265,153,256)
+line(153,256,116,239)
+line(116,239,75,208)
+
+fill(255, 255, 255)
+ellipse(187,230,11,7)
+ellipse(200,230,13,6)
+ellipse(216,232,13,8)
 
 // eyes 
   fill(255,255,255)
@@ -84,29 +104,27 @@ ellipse(145,154,70,85);
 
 //pupils
 fill(0,0,0)
-ellipse (130,152,5,5)
+ellipse (130,152,7,7)
 
-translate(-62,0)
-fill(0,0,0)
-ellipse (130,152,5,5)
-  
+ellipse (85,151,7,7)
 
 
 //glove
 
 
  fill(255, 225, 0)
-  ellipse (8,280,80,50);
+  ellipse (-70,280,80,50);
 
   translate (330,-10)
   fill(255, 225, 0)
-  ellipse (8,280,80,50);
+  ellipse (-50,280,80,50);
+
+
+  
 
 
 
 }
-
-//hat
 
 
 
